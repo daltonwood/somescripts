@@ -1,3 +1,6 @@
-This script copies my Firefox Simple Tab Groups backups from my work laptop Downloads folder to a peer-synced folder in my home directory. Once the backup folders are copied the script will delete any backups older than 45 days from the synced folder and Downloads.
+This script copies Firefox Simple Tab Groups backups to a peer-synced folder in my home directory. Once the backups are copied the script will delete any backups older than 45 days from the user downloads folder, and any backups older than 60 days from the target folder.
 
-I have this set up as a LaunchAgent running every 30 minutes on my laptop to ensure the latest tabs are available on any of my computers, using SyncThing.
+I set this up as a launch agent running every 30 minutes.
+
+***wanna use this script?***
+- replace cpDIR with your target folder
