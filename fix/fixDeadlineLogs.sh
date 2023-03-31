@@ -1,4 +1,6 @@
 #!/bin/zsh
+security add-generic-password -s "RenderAcct" -a "render" -p
+
 PASSWORD=$(security find-generic-password -s "RenderAcct" -a "render" -w)
 
 pkill -x DeadlineMonitor10.app 
