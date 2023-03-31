@@ -1,8 +1,5 @@
 #!/bin/zsh
 PASSWORD=$(security find-generic-password -s "RenderAcct" -a "render" -w)
-# was messing with PIDs...this doesn't work because pkill doesn't take PID?:
-#DLPID=$(pgrep DeadlineMonitor10)
-#pgrep DeadlineMonitor10
 
 pkill -x DeadlineMonitor10.app 
 
